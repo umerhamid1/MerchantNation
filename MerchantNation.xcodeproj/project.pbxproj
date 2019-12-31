@@ -13,9 +13,12 @@
 		3D305D5423BB727900962260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D305D5223BB727900962260 /* Main.storyboard */; };
 		3D305D5623BB727B00962260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D305D5523BB727B00962260 /* Assets.xcassets */; };
 		3D305D5923BB727B00962260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D305D5723BB727B00962260 /* LaunchScreen.storyboard */; };
+		3D305D6723BB78BF00962260 /* RoundedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D305D6623BB78BF00962260 /* RoundedUIView.swift */; };
+		C9F4E7D7C61BCF629EB3202F /* Pods_MerchantNation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BF223059CC2BE159B1DE50C /* Pods-MerchantNation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantNation.debug.xcconfig"; path = "Target Support Files/Pods-MerchantNation/Pods-MerchantNation.debug.xcconfig"; sourceTree = "<group>"; };
 		3D305D4923BB727900962260 /* MerchantNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D305D4C23BB727900962260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D305D4E23BB727900962260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		3D305D5523BB727B00962260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D305D5823BB727B00962260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D305D5A23BB727B00962260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D305D6623BB78BF00962260 /* RoundedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIView.swift; sourceTree = "<group>"; };
+		8367F24910198987E7C7B70A /* Pods-MerchantNation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantNation.release.xcconfig"; path = "Target Support Files/Pods-MerchantNation/Pods-MerchantNation.release.xcconfig"; sourceTree = "<group>"; };
+		A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerchantNation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F4E7D7C61BCF629EB3202F /* Pods_MerchantNation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F523462AFFA30316AFE5FF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BF223059CC2BE159B1DE50C /* Pods-MerchantNation.debug.xcconfig */,
+				8367F24910198987E7C7B70A /* Pods-MerchantNation.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3D305D4023BB727900962260 = {
 			isa = PBXGroup;
 			children = (
 				3D305D4B23BB727900962260 /* MerchantNation */,
 				3D305D4A23BB727900962260 /* Products */,
+				2F523462AFFA30316AFE5FF5 /* Pods */,
+				E635AD9BBAFA6FF169C9D964 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +123,7 @@
 		3D305D6423BB733000962260 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				3D305D6623BB78BF00962260 /* RoundedUIView.swift */,
 			);
 			name = CustomUI;
 			sourceTree = "<group>";
@@ -115,6 +135,14 @@
 			name = Networking;
 			sourceTree = "<group>";
 		};
+		E635AD9BBAFA6FF169C9D964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D305D5D23BB727B00962260 /* Build configuration list for PBXNativeTarget "MerchantNation" */;
 			buildPhases = (
+				8669E3C2235E7863A36B291A /* [CP] Check Pods Manifest.lock */,
 				3D305D4523BB727900962260 /* Sources */,
 				3D305D4623BB727900962260 /* Frameworks */,
 				3D305D4723BB727900962260 /* Resources */,
+				3E9F90C141BD945A78D383AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,11 +211,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E9F90C141BD945A78D383AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MerchantNation/Pods-MerchantNation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MerchantNation/Pods-MerchantNation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MerchantNation/Pods-MerchantNation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8669E3C2235E7863A36B291A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MerchantNation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D305D4523BB727900962260 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D305D6723BB78BF00962260 /* RoundedUIView.swift in Sources */,
 				3D305D5123BB727900962260 /* ViewController.swift in Sources */,
 				3D305D4D23BB727900962260 /* AppDelegate.swift in Sources */,
 				3D305D4F23BB727900962260 /* SceneDelegate.swift in Sources */,
@@ -330,6 +403,7 @@
 		};
 		3D305D5E23BB727B00962260 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF223059CC2BE159B1DE50C /* Pods-MerchantNation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,6 +422,7 @@
 		};
 		3D305D5F23BB727B00962260 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8367F24910198987E7C7B70A /* Pods-MerchantNation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
