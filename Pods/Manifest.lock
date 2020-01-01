@@ -1,16 +1,20 @@
 PODS:
+  - IQKeyboardManagerSwift (6.4.2)
   - SkyFloatingLabelTextField (3.7.0)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - SkyFloatingLabelTextField
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
     - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 79a3ec200dfb41cb66a89b8575417b5378107c5d
   SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
 
-PODFILE CHECKSUM: dcab22f50eac1c60b4ca8261e072e73a132652bd
+PODFILE CHECKSUM: f399abdb1004576dc915a24ab90104bf9fa9240d
 
 COCOAPODS: 1.7.5
