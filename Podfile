@@ -8,5 +8,6 @@ target 'MerchantNation' do
   # Pods for MerchantNation
   pod 'SkyFloatingLabelTextField'
   pod 'IQKeyboardManagerSwift'
+  pod 'XLPagerTabStrip'
 
 end
