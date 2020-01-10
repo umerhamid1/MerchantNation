@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z3b-5r-FqR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ffS-ug-qIE">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
@@ -175,7 +175,7 @@
                                 <rect key="frame" x="24" y="353" width="272" height="55"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wdv-Nk-ITq" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                        <rect key="frame" x="10" y="0.0" width="217.5" height="34"/>
+                                        <rect key="frame" x="10" y="0.0" width="217.5" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -252,7 +252,7 @@
                                 <rect key="frame" x="24" y="282" width="272" height="55"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="prV-RZ-tgz" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                        <rect key="frame" x="10" y="3" width="217.5" height="34"/>
+                                        <rect key="frame" x="10" y="3" width="217.5" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -435,16 +435,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9cC-PR-1iE">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1463"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="888.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackGround" translatesAutoresizingMaskIntoConstraints="NO" id="JHo-cJ-a6l">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1473"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="898.5"/>
                                             </imageView>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2YJ-ha-m50" userLabel="ConfirmPassword View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2YJ-ha-m50" userLabel="ConfirmPassword View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="542" width="288" height="58"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tnB-AY-Eh0" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="10" y="3" width="230.5" height="34"/>
+                                                        <rect key="frame" x="10" y="3" width="230.5" height="39"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -503,11 +503,11 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7kT-jB-H7r" userLabel="Password View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7kT-jB-H7r" userLabel="Password View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="467" width="288" height="58"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fwy-Dm-W0O" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="10" y="3" width="230.5" height="34"/>
+                                                        <rect key="frame" x="10" y="3" width="230.5" height="39"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -565,11 +565,11 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NYc-el-YT7" userLabel="Email View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NYc-el-YT7" userLabel="Email View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="392" width="288" height="58"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EZ9-qe-yEK" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="10" y="3" width="230.5" height="34"/>
+                                                        <rect key="frame" x="10" y="3" width="230.5" height="39"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -630,11 +630,11 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lSS-cN-hR8" userLabel="Name View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSS-cN-hR8" userLabel="Name View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="326.5" width="288" height="58"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2iH-0i-EhU" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="10" y="3" width="230.5" height="34"/>
+                                                        <rect key="frame" x="10" y="3" width="230.5" height="39"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -694,7 +694,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="User Account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEn-RO-L8D">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEn-RO-L8D">
                                                 <rect key="frame" x="89.5" y="253.5" width="141" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -718,11 +718,11 @@
                                                     <action selector="backButtonPressed:" destination="pzV-Yc-sdI" eventType="touchUpInside" id="g2Y-xc-HSn"/>
                                                 </connections>
                                             </button>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRy-bX-ozg" userLabel="ConfirmPassword View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kRy-bX-ozg" userLabel="ConfirmPassword View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="617" width="288" height="58"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bvj-Xx-kzW" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="10" y="3" width="230.5" height="34"/>
+                                                        <rect key="frame" x="10" y="3" width="230.5" height="39"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -781,7 +781,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ6-32-sOa">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ6-32-sOa">
                                                 <rect key="frame" x="17.5" y="700" width="285" height="15"/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="By registering you agree to our terms &amp; conditions">
@@ -795,7 +795,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P8Q-tW-6q6" userLabel="Sign in View" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="1311.5" width="288" height="52.5"/>
+                                                <rect key="frame" x="16" y="737" width="288" height="52"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HQ-0n-W5s">
                                                         <rect key="frame" x="0.0" y="10" width="288" height="32"/>
@@ -838,10 +838,10 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0dW-gT-vxg" customClass="RoundUIView" customModule="MerchantNation" customModuleProvider="target">
-                                                <rect key="frame" x="13" y="1381" width="294" height="52"/>
+                                                <rect key="frame" x="13" y="806" width="294" height="52.5"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDU-jO-dQO">
-                                                        <rect key="frame" x="3" y="0.0" width="288" height="52"/>
+                                                        <rect key="frame" x="3" y="0.0" width="288" height="52.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                         <state key="normal" title="Continue with Facebook">
@@ -849,7 +849,7 @@
                                                         </state>
                                                     </button>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook" translatesAutoresizingMaskIntoConstraints="NO" id="PZH-g2-6mL">
-                                                        <rect key="frame" x="257" y="15.5" width="24" height="21"/>
+                                                        <rect key="frame" x="257" y="16" width="24" height="21"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="24" id="RyP-ta-e2z"/>
@@ -991,7 +991,7 @@
                                 <rect key="frame" x="16" y="244" width="288" height="52"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rm3-36-dJJ" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                        <rect key="frame" x="10" y="0.0" width="288" height="34"/>
+                                        <rect key="frame" x="10" y="0.0" width="288" height="39"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -1210,7 +1210,7 @@
                                                 <rect key="frame" x="16" y="62" width="288" height="37"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ij2-cB-Cn8" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="8" y="-9" width="236" height="34"/>
+                                                        <rect key="frame" x="8" y="-9" width="236" height="39"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <userDefinedRuntimeAttributes>
@@ -1719,69 +1719,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="NRO-YD-GUW">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="d6L-aV-s6C">
+                                <rect key="frame" x="0.0" y="44" width="320" height="475"/>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dcy-wG-UDM">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nyo-cv-dzY" customClass="ShadowView" customModule="MerchantNation" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="320" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="66" id="fPI-O0-csc"/>
+                                    <constraint firstAttribute="height" constant="40" id="yCy-fX-5rb"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GcG-Mn-xQo">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="S9x-m1-eqA" customClass="ButtonBarViewCell" customModule="XLPagerTabStrip">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="a1j-Qe-bl2">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NlU-s1-oT3">
-                                <rect key="frame" x="0.0" y="66" width="320" height="502"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ax4-8N-dwu">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="502"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="320" id="ADn-OS-9ge"/>
-                                            <constraint firstAttribute="height" constant="502" id="Ttz-bg-cma"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="ax4-8N-dwu" firstAttribute="bottom" secondItem="HQs-V3-VqE" secondAttribute="bottom" id="6Kr-wM-b0s"/>
-                                    <constraint firstItem="ax4-8N-dwu" firstAttribute="top" secondItem="HQs-V3-VqE" secondAttribute="top" id="FlR-0z-27c"/>
-                                    <constraint firstAttribute="bottom" secondItem="ax4-8N-dwu" secondAttribute="bottom" id="epS-jM-JVs"/>
-                                    <constraint firstItem="ax4-8N-dwu" firstAttribute="leading" secondItem="HQs-V3-VqE" secondAttribute="leading" id="kHu-Bw-6C7"/>
-                                    <constraint firstAttribute="trailing" secondItem="ax4-8N-dwu" secondAttribute="trailing" id="kgR-yR-RcG"/>
-                                    <constraint firstItem="ax4-8N-dwu" firstAttribute="trailing" secondItem="HQs-V3-VqE" secondAttribute="trailing" id="t7y-e8-KDV"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="dFW-hh-hwA"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="HQs-V3-VqE"/>
-                            </scrollView>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="8" height="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="dcy-wG-UDM" firstAttribute="top" secondItem="rrW-F1-i8J" secondAttribute="top" id="2eM-pi-dra"/>
-                            <constraint firstItem="NlU-s1-oT3" firstAttribute="top" secondItem="dcy-wG-UDM" secondAttribute="bottom" id="6kh-w1-6WM"/>
-                            <constraint firstItem="dcy-wG-UDM" firstAttribute="leading" secondItem="rrW-F1-i8J" secondAttribute="leading" id="6zb-g1-QgN"/>
-                            <constraint firstItem="NlU-s1-oT3" firstAttribute="trailing" secondItem="rrW-F1-i8J" secondAttribute="trailing" id="NJq-Av-bqG"/>
-                            <constraint firstItem="rrW-F1-i8J" firstAttribute="bottom" secondItem="NRO-YD-GUW" secondAttribute="bottom" id="WS7-eC-B0m"/>
-                            <constraint firstItem="rrW-F1-i8J" firstAttribute="trailing" secondItem="dcy-wG-UDM" secondAttribute="trailing" id="jSl-hy-uXL"/>
-                            <constraint firstItem="NRO-YD-GUW" firstAttribute="leading" secondItem="rrW-F1-i8J" secondAttribute="leading" id="mhp-nG-Tv8"/>
-                            <constraint firstItem="NlU-s1-oT3" firstAttribute="bottom" secondItem="rrW-F1-i8J" secondAttribute="bottom" id="pQJ-NP-pDn"/>
-                            <constraint firstItem="rrW-F1-i8J" firstAttribute="trailing" secondItem="NRO-YD-GUW" secondAttribute="trailing" id="r7X-mc-Svf"/>
-                            <constraint firstItem="NRO-YD-GUW" firstAttribute="top" secondItem="rrW-F1-i8J" secondAttribute="top" id="vkO-yK-zF3"/>
-                            <constraint firstItem="NlU-s1-oT3" firstAttribute="leading" secondItem="rrW-F1-i8J" secondAttribute="leading" id="wro-B2-dbF"/>
+                            <constraint firstItem="Nyo-cv-dzY" firstAttribute="trailing" secondItem="rrW-F1-i8J" secondAttribute="trailing" id="4fO-wS-cSo"/>
+                            <constraint firstItem="Nyo-cv-dzY" firstAttribute="leading" secondItem="rrW-F1-i8J" secondAttribute="leading" id="K9B-5l-BlV"/>
+                            <constraint firstItem="rrW-F1-i8J" firstAttribute="bottom" secondItem="d6L-aV-s6C" secondAttribute="bottom" id="Lf1-z7-vq4"/>
+                            <constraint firstItem="Nyo-cv-dzY" firstAttribute="top" secondItem="rrW-F1-i8J" secondAttribute="top" id="UuZ-b2-HFx"/>
+                            <constraint firstItem="d6L-aV-s6C" firstAttribute="leading" secondItem="rrW-F1-i8J" secondAttribute="leading" id="bYP-V7-8wl"/>
+                            <constraint firstItem="d6L-aV-s6C" firstAttribute="top" secondItem="rrW-F1-i8J" secondAttribute="top" id="kHl-up-qKa"/>
+                            <constraint firstItem="rrW-F1-i8J" firstAttribute="trailing" secondItem="d6L-aV-s6C" secondAttribute="trailing" id="qhG-Dk-XdF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rrW-F1-i8J"/>
                     </view>
@@ -1803,9 +1780,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomeBackground" translatesAutoresizingMaskIntoConstraints="NO" id="9j7-Xz-G8U">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOQ-Vg-cCY">
                                 <rect key="frame" x="132" y="231" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1815,12 +1789,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="9j7-Xz-G8U" firstAttribute="top" secondItem="6je-u1-9fM" secondAttribute="top" id="Lwt-q8-aD3"/>
-                            <constraint firstItem="9j7-Xz-G8U" firstAttribute="leading" secondItem="6je-u1-9fM" secondAttribute="leading" id="P6d-DJ-ujD"/>
-                            <constraint firstItem="6je-u1-9fM" firstAttribute="bottom" secondItem="9j7-Xz-G8U" secondAttribute="bottom" id="TaC-9Q-QFj"/>
-                            <constraint firstItem="6je-u1-9fM" firstAttribute="trailing" secondItem="9j7-Xz-G8U" secondAttribute="trailing" id="j9Z-8Y-rqp"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6je-u1-9fM"/>
                     </view>
                     <connections>
@@ -1834,7 +1802,7 @@
         <!--test-->
         <scene sceneID="5yk-Cd-gv7">
             <objects>
-                <viewController id="oDi-dZ-7ZV" customClass="MenuViewController" customModule="MerchantNation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oDi-dZ-7ZV" customClass="testPagerViewController" customModule="MerchantNation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YCA-5n-yfH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1842,14 +1810,46 @@
                         <viewLayoutGuide key="safeArea" id="ygQ-IH-dwJ"/>
                     </view>
                     <navigationItem key="navigationItem" title="test" id="rqg-08-eCh"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Se9-ey-83k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9388.125" y="137.32394366197184"/>
+            <point key="canvasLocation" x="10385.625" y="137.32394366197184"/>
+        </scene>
+        <!--Test Child Pager View Controller-->
+        <scene sceneID="Mel-JE-gDZ">
+            <objects>
+                <viewController storyboardIdentifier="ChildViewController1" id="MSk-D7-49n" customClass="TestChildPagerViewController" customModule="MerchantNation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HrE-Va-T17">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iz3-bv-ZgH">
+                                <rect key="frame" x="139" y="274" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Iz3-bv-ZgH" firstAttribute="centerY" secondItem="FtK-w7-KqZ" secondAttribute="centerY" id="Krq-Oh-Ibl"/>
+                            <constraint firstItem="Iz3-bv-ZgH" firstAttribute="centerX" secondItem="FtK-w7-KqZ" secondAttribute="centerX" id="hAK-au-pLW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FtK-w7-KqZ"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="Iz3-bv-ZgH" id="55V-cn-LFz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lr8-wT-eAW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11135.625" y="138.38028169014083"/>
         </scene>
         <!--Menu-->
         <scene sceneID="Tse-CW-Gmw">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3X1-eP-Jjx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UcT-QQ-ONG" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Menu" image="TapBar_menuGray" id="yd5-Q1-lDa"/>
                     <toolbarItems/>
@@ -1858,28 +1858,30 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7bG-mf-F1S" kind="relationship" relationship="rootViewController" id="oNN-ZS-OXn"/>
+                    </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3X1-eP-Jjx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5591" y="100"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="sHa-u4-s4k">
+        <scene sceneID="6QR-Q2-hSe">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z3b-5r-FqR" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="V0h-7h-wCb" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pYD-I9-fN9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sAQ-Io-cw8">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="oDi-dZ-7ZV" kind="relationship" relationship="rootViewController" id="ykd-2F-7K8"/>
+                        <segue destination="oDi-dZ-7ZV" kind="relationship" relationship="rootViewController" id="dHO-DH-xaG"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kaw-WL-aFf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sZQ-TY-598" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8390.625" y="137.32394366197184"/>
+            <point key="canvasLocation" x="9388.125" y="137.32394366197184"/>
         </scene>
     </scenes>
     <resources>
@@ -1906,4 +1908,5 @@
         <image name="reserveYouTable" width="115" height="44.666667938232422"/>
         <image name="sideBarLogo" width="19" height="12"/>
     </resources>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
 </document>
