@@ -26,6 +26,8 @@
 		3D9A70E523BE784900787251 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A70E423BE784900787251 /* RoundedButton.swift */; };
 		3D9A70E723BE940E00787251 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A70E623BE940E00787251 /* HomeViewController.swift */; };
 		3D9A70E923BE947300787251 /* CellLovedDishesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A70E823BE947300787251 /* CellLovedDishesCollectionViewCell.swift */; };
+		3DA3F3FA23CA34BE00FF7461 /* BookYourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3F3F923CA34BE00FF7461 /* BookYourTableViewController.swift */; };
+		3DA903BD23C9D6A800CC481C /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA903BC23C9D6A800CC481C /* MenuTableViewCell.swift */; };
 		C9F4E7D7C61BCF629EB3202F /* Pods_MerchantNation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		3D9A70E423BE784900787251 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		3D9A70E623BE940E00787251 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D9A70E823BE947300787251 /* CellLovedDishesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellLovedDishesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DA3F3F923CA34BE00FF7461 /* BookYourTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookYourTableViewController.swift; sourceTree = "<group>"; };
+		3DA903BC23C9D6A800CC481C /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		8367F24910198987E7C7B70A /* Pods-MerchantNation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantNation.release.xcconfig"; path = "Target Support Files/Pods-MerchantNation/Pods-MerchantNation.release.xcconfig"; sourceTree = "<group>"; };
 		A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerchantNation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -132,6 +136,7 @@
 				3D768C5823C270260002D5B0 /* FamilyDealsViewController.swift */,
 				3D82544823C889A5002E8A0F /* testPagerViewController.swift */,
 				3D82544A23C889BA002E8A0F /* TestChildPagerViewController.swift */,
+				3DA3F3F923CA34BE00FF7461 /* BookYourTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 		3D305D6423BB733000962260 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				3DA903BB23C9D65B00CC481C /* CustomCell */,
 				3D9A70E323BE783600787251 /* Buttons */,
 				3D9A70E023BE26CE00787251 /* Views */,
 			);
@@ -184,6 +190,14 @@
 				3D9A70E423BE784900787251 /* RoundedButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3DA903BB23C9D65B00CC481C /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DA903BC23C9D6A800CC481C /* MenuTableViewCell.swift */,
+			);
+			name = CustomCell;
 			sourceTree = "<group>";
 		};
 		E635AD9BBAFA6FF169C9D964 /* Frameworks */ = {
@@ -314,6 +328,7 @@
 				3D9A70E523BE784900787251 /* RoundedButton.swift in Sources */,
 				3D305D6723BB78BF00962260 /* RoundedUIView.swift in Sources */,
 				3D07E06623BCCD2100FA6D91 /* WelcomeViewController.swift in Sources */,
+				3DA903BD23C9D6A800CC481C /* MenuTableViewCell.swift in Sources */,
 				3D07E06823BCDA3600FA6D91 /* SignInViewController.swift in Sources */,
 				3D482E3423BD600D00B4EAF7 /* AddressViewController.swift in Sources */,
 				3D305D5123BB727900962260 /* ViewController.swift in Sources */,
@@ -321,6 +336,7 @@
 				3D9A70E923BE947300787251 /* CellLovedDishesCollectionViewCell.swift in Sources */,
 				3D9A70E723BE940E00787251 /* HomeViewController.swift in Sources */,
 				3D82544B23C889BA002E8A0F /* TestChildPagerViewController.swift in Sources */,
+				3DA3F3FA23CA34BE00FF7461 /* BookYourTableViewController.swift in Sources */,
 				3D305D4D23BB727900962260 /* AppDelegate.swift in Sources */,
 				3D82544923C889A5002E8A0F /* testPagerViewController.swift in Sources */,
 				3D305D4F23BB727900962260 /* SceneDelegate.swift in Sources */,

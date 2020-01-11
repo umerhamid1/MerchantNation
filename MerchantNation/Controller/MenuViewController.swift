@@ -9,10 +9,17 @@
 import UIKit
 import XLPagerTabStrip
 
-class MenuViewController : ButtonBarPagerTabStripViewController{
+class MenuViewController : ButtonBarPagerTabStripViewController {
+    
+    
+    
+    @IBOutlet weak var menuTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       menuTableView.dataSource = self
+        menuTableView.delegate = self
         
         //self.navigationController?.isNavigationBarHidden = false
         //get rod of containerView offset
@@ -38,18 +45,24 @@ class MenuViewController : ButtonBarPagerTabStripViewController{
     
     // MARK: - PagerTabStripDataSource
     
+    var i = ["Family Deal","Beaf","Fried Chicken","Side Item","Beverages"]
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         
-        let child1 = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChildViewController") as! FamilyDealsViewController
-        child1.childNumber = "One"
+        var r = [UIViewController]()
+        for  a in i {
+            let child = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChildViewController") as! FamilyDealsViewController
+            child.childNumber = a
+            r.append(child)
+//            let child2 = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChildViewController") as! FamilyDealsViewController
+//            child2.childNumber = "Two"
+        }
+       
         
-        let child2 = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChildViewController") as! FamilyDealsViewController
-        child2.childNumber = "Two"
-        
-        return [
-            child1
-            , child2
-        ]
+        return r
+//            [
+//            child1
+//            , child2
+//        ]
     }
     
     
@@ -80,5 +93,29 @@ class MenuViewController : ButtonBarPagerTabStripViewController{
         }
     }
     
+    
+}
+
+extension MenuViewController : UITableViewDelegate , UITableViewDataSource {
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       // let cell = self.menuTableView.dequeueReusableCell(withIdentifier: "MenuCell") as! MenuTableViewCell
+        
+        let cell = menuTableView.dequeueReusableCell(withIdentifier: "MenuCell", for: indexPath) as!
+        MenuTableViewCell
+
+
+          cell.NameLabel.text = "Name"
+          cell.priceLabel.text = "price"
+
+        //   cell.textLabel?.text = self.items[indexPath.row]
+
+           return cell
+    }
     
 }
