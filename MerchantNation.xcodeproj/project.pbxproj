@@ -18,6 +18,8 @@
 		3D305D6723BB78BF00962260 /* RoundedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D305D6623BB78BF00962260 /* RoundedUIView.swift */; };
 		3D482E3223BD587900B4EAF7 /* CreatUserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D482E3123BD587900B4EAF7 /* CreatUserAccountViewController.swift */; };
 		3D482E3423BD600D00B4EAF7 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D482E3323BD600D00B4EAF7 /* AddressViewController.swift */; };
+		3D59C52423CBB83E003ED4C6 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C52323CBB83E003ED4C6 /* ReservationViewController.swift */; };
+		3D59C52623CBB874003ED4C6 /* ReservationAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C52523CBB874003ED4C6 /* ReservationAddressTableViewCell.swift */; };
 		3D768C5723C265BD0002D5B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D768C5623C265BD0002D5B0 /* MenuViewController.swift */; };
 		3D768C5923C270260002D5B0 /* FamilyDealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D768C5823C270260002D5B0 /* FamilyDealsViewController.swift */; };
 		3D82544923C889A5002E8A0F /* testPagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82544823C889A5002E8A0F /* testPagerViewController.swift */; };
@@ -46,6 +48,8 @@
 		3D305D6623BB78BF00962260 /* RoundedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUIView.swift; sourceTree = "<group>"; };
 		3D482E3123BD587900B4EAF7 /* CreatUserAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatUserAccountViewController.swift; sourceTree = "<group>"; };
 		3D482E3323BD600D00B4EAF7 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		3D59C52323CBB83E003ED4C6 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		3D59C52523CBB874003ED4C6 /* ReservationAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationAddressTableViewCell.swift; sourceTree = "<group>"; };
 		3D768C5623C265BD0002D5B0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3D768C5823C270260002D5B0 /* FamilyDealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDealsViewController.swift; sourceTree = "<group>"; };
 		3D82544823C889A5002E8A0F /* testPagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPagerViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 				3D82544823C889A5002E8A0F /* testPagerViewController.swift */,
 				3D82544A23C889BA002E8A0F /* TestChildPagerViewController.swift */,
 				3DA3F3F923CA34BE00FF7461 /* BookYourTableViewController.swift */,
+				3D59C52323CBB83E003ED4C6 /* ReservationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				3DA903BC23C9D6A800CC481C /* MenuTableViewCell.swift */,
+				3D59C52523CBB874003ED4C6 /* ReservationAddressTableViewCell.swift */,
 			);
 			name = CustomCell;
 			sourceTree = "<group>";
@@ -328,6 +334,7 @@
 				3D9A70E523BE784900787251 /* RoundedButton.swift in Sources */,
 				3D305D6723BB78BF00962260 /* RoundedUIView.swift in Sources */,
 				3D07E06623BCCD2100FA6D91 /* WelcomeViewController.swift in Sources */,
+				3D59C52423CBB83E003ED4C6 /* ReservationViewController.swift in Sources */,
 				3DA903BD23C9D6A800CC481C /* MenuTableViewCell.swift in Sources */,
 				3D07E06823BCDA3600FA6D91 /* SignInViewController.swift in Sources */,
 				3D482E3423BD600D00B4EAF7 /* AddressViewController.swift in Sources */,
@@ -337,6 +344,7 @@
 				3D9A70E723BE940E00787251 /* HomeViewController.swift in Sources */,
 				3D82544B23C889BA002E8A0F /* TestChildPagerViewController.swift in Sources */,
 				3DA3F3FA23CA34BE00FF7461 /* BookYourTableViewController.swift in Sources */,
+				3D59C52623CBB874003ED4C6 /* ReservationAddressTableViewCell.swift in Sources */,
 				3D305D4D23BB727900962260 /* AppDelegate.swift in Sources */,
 				3D82544923C889A5002E8A0F /* testPagerViewController.swift in Sources */,
 				3D305D4F23BB727900962260 /* SceneDelegate.swift in Sources */,
