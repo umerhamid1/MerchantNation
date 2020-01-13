@@ -17,7 +17,7 @@ class ReservationViewController: UIViewController {
 
         
         self.addressTableView.separatorStyle = .none
-        
+    //    cell.selectionStyle = .none
    
         // Do any additional setup after loading the view.
     }
