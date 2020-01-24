@@ -9,92 +9,130 @@
 import UIKit
 import XLPagerTabStrip
 
-class MenuViewController : ButtonBarPagerTabStripViewController {
+class MenuViewController : UIViewController  {
+    
+     static var orderCount = 0
     
     
+    
+    
+    @IBOutlet weak var sideBarButton: UIBarButtonItem!
+    @IBOutlet weak var checkOutView: RoundUIView!
+    
+    var arrDishes = ["Family","Desi","Buger","Pizza","Beef","Chicken"]
+
+    @IBOutlet weak var sideBarItemButtonCustom: UIButton!
+    
+    private func slideMenu(){
+        if revealViewController() != nil{
+            sideBarButton.target = revealViewController()
+          //  sideBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
+             sideBarItemButtonCustom.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+            revealViewController()?.rearViewRevealWidth = 280
+            
+            view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+            
+            
+           
+
+        }
+    }
+    
+  
+    let arr = ["Beef","Chicken" ,"Burger"]
+    
+    
+    @IBOutlet weak var dishesCollectionView: UICollectionView!
     
     @IBOutlet weak var menuTableView: UITableView!
+    @IBOutlet weak var checkoutPriceLable: UILabel!
     
+    @IBOutlet weak var checkOutButton: UIButton!
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.slideMenu()
+        navigationController?.navigationBar.barTintColor = UIColor.white
         
-       menuTableView.dataSource = self
-        menuTableView.delegate = self
-        
-        //self.navigationController?.isNavigationBarHidden = false
-        //get rod of containerView offset
-        // edgesForExtendedLayout = []
-        //move tab
-        
-        self.navigationController?.navigationBar.barTintColor = .white
-        navigationController?.navigationBar.shadowImage = UIImage()
-        
-        
-        let height: CGFloat = 500 //whatever height you want to add to the existing height
-           let bounds = self.navigationController!.navigationBar.bounds
-           self.navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height + height)
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
 
-        buttonBarView.frame.origin.y = buttonBarView.frame.origin.y + 80
-        buttonBarView.backgroundColor = .white
-        configureButtonBar()
+        menuTableView.separatorStyle = .none
+        checkOutView.isHidden = true
         
-        
-        
-        // Do any additional setup after loading the view.
-    }
-    
-    // MARK: - PagerTabStripDataSource
-    
-    var i = ["Family Deal","Beaf","Fried Chicken","Side Item","Beverages"]
-    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        
-        var r = [UIViewController]()
-        for  a in i {
-            let child = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChildViewController") as! FamilyDealsViewController
-            child.childNumber = a
-            r.append(child)
-//            let child2 = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ChildViewController") as! FamilyDealsViewController
-//            child2.childNumber = "Two"
-        }
-       
-        
-        return r
-//            [
-//            child1
-//            , child2
-//        ]
     }
     
     
-    func configureButtonBar() {
-        // Sets the background colour of the pager strip and the pager strip item
-        settings.style.buttonBarBackgroundColor = .white
-        settings.style.buttonBarItemBackgroundColor = .white
-        
-        // Sets the pager strip item font and font color
-        settings.style.buttonBarItemFont = UIFont(name: "Helvetica", size: 16.0)!
-        settings.style.buttonBarItemTitleColor = .gray
-        
-        // Sets the pager strip item offsets
-        settings.style.buttonBarMinimumLineSpacing = 0
-        settings.style.buttonBarItemsShouldFillAvailableWidth = true
-        settings.style.buttonBarLeftContentInset = 0
-        settings.style.buttonBarRightContentInset = 0
-        
-        // Sets the height and colour of the slider bar of the selected pager tab
-        settings.style.selectedBarHeight = 3.0
-        settings.style.selectedBarBackgroundColor = .orange
-        
-        // Changing item text color on swipe
-        changeCurrentIndexProgressive = { [weak self] (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
-            guard changeCurrentIndex == true else { return }
-            oldCell?.label.textColor = .gray
-            newCell?.label.textColor = .black
-        }
+    @IBAction func checkOutButtonPressed(_ sender: Any) {
     }
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        self.hidesBottomBarWhenPushed = false
+//        
+//    }
+//    override func viewWillDisappear(_ animated: Bool) {
+//        self.hidesBottomBarWhenPushed = true
+//        
+//        
+//    }
+}
+
+extension MenuViewController : UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return arrDishes.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "dishesCell", for: indexPath) as! CellDishesCollectionViewCell
+                
+        cell.nameLabel.text = arrDishes[indexPath.row]
+                //cell.underlineImage.image = UIImage(named: "Line")
+//
+//        if indexPath.row == 0 {
+//
+//            cell.underlineImage.image = UIImage(named: "BlackLine")
+//        }
+                
+                return cell
+    }
+
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+
+
+//
+//        let selectedCell:UICollectionViewCell = collectionView.cellForItem(at: indexPath)!
+//        selectedCell.contentView.backgroundColor = UIColor.red
+        
+        
+
+        
+
+        //cell.underlineImage.image = UIImage()
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
+        return (collectionView.indexPathsForSelectedItems?.count ?? 0) < 2
+    }
+    
+//
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        return arr.count
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        let cell = dishesCollectionView.dequeueReusableCell(withReuseIdentifier: "dishesCell", for: indexPath) as! CellDishesCollectionViewCell
+//
+//        //cell.nameLabel.text = ""
+////        cell.underlineImage.image = UIImage()
+//
+//        return cell
+//    }
+    
     
     
 }
+
 
 extension MenuViewController : UITableViewDelegate , UITableViewDataSource {
     
@@ -104,18 +142,47 @@ extension MenuViewController : UITableViewDelegate , UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       // let cell = self.menuTableView.dequeueReusableCell(withIdentifier: "MenuCell") as! MenuTableViewCell
+     
         
-        let cell = menuTableView.dequeueReusableCell(withIdentifier: "MenuCell", for: indexPath) as!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MenuCell", for: indexPath) as!
         MenuTableViewCell
 
 
-          cell.NameLabel.text = "Name"
-          cell.priceLabel.text = "price"
+        
+
+        cell.selectionStyle = .none
+        
+        cell.hideShowAction = {
+            
+            //
+                    if MenuViewController.orderCount > 0 {
+            
+            
+                       
+                            self.checkOutView.isHidden = false
+                           
+            
+                    }else{
+                        self.checkOutView.isHidden = true
+                    }
+            
+        }
+       
 
         //   cell.textLabel?.text = self.items[indexPath.row]
 
            return cell
     }
     
+   
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+     
+    }
+    
+}
+
+extension UIButton {
+    func toBarButtonItem() -> UIBarButtonItem? {
+        return UIBarButtonItem(customView: self)
+    }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D03BD2323CDD4F000E1E4EB /* OfferAndPromotionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03BD2223CDD4F000E1E4EB /* OfferAndPromotionDetailsViewController.swift */; };
+		3D03BD2523CDEFA800E1E4EB /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03BD2423CDEFA800E1E4EB /* RewardsViewController.swift */; };
+		3D03BD2723CDF02C00E1E4EB /* CellRewardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03BD2623CDF02C00E1E4EB /* CellRewardsTableViewCell.swift */; };
+		3D03BD2923CDF32E00E1E4EB /* RewardsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D03BD2823CDF32E00E1E4EB /* RewardsDetailsViewController.swift */; };
 		3D07E06623BCCD2100FA6D91 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07E06523BCCD2100FA6D91 /* WelcomeViewController.swift */; };
 		3D07E06823BCDA3600FA6D91 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07E06723BCDA3600FA6D91 /* SignInViewController.swift */; };
 		3D305D4D23BB727900962260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D305D4C23BB727900962260 /* AppDelegate.swift */; };
@@ -22,6 +26,12 @@
 		3D382B0523CCCE4100118536 /* RedeemGiftCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D382B0423CCCE4100118536 /* RedeemGiftCardViewController.swift */; };
 		3D482E3223BD587900B4EAF7 /* CreatUserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D482E3123BD587900B4EAF7 /* CreatUserAccountViewController.swift */; };
 		3D482E3423BD600D00B4EAF7 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D482E3323BD600D00B4EAF7 /* AddressViewController.swift */; };
+		3D51326423D862D300E87735 /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51326323D862D300E87735 /* CommonFunction.swift */; };
+		3D56DF2123D8B20700E03D35 /* AddToCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56DF2023D8B20700E03D35 /* AddToCartViewController.swift */; };
+		3D56DF2323D8B36100E03D35 /* TermConditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56DF2223D8B36100E03D35 /* TermConditionViewController.swift */; };
+		3D56DF2523D8B37300E03D35 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D56DF2423D8B37300E03D35 /* PrivacyPolicyViewController.swift */; };
+		3D571ACA23D3610400AB8734 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D571AC823D3610300AB8734 /* SWRevealViewController.m */; };
+		3D571ACC23D3676900AB8734 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D571ACB23D3676900AB8734 /* SideBarTableViewController.swift */; };
 		3D59C52423CBB83E003ED4C6 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C52323CBB83E003ED4C6 /* ReservationViewController.swift */; };
 		3D59C52623CBB874003ED4C6 /* ReservationAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59C52523CBB874003ED4C6 /* ReservationAddressTableViewCell.swift */; };
 		3D768C5723C265BD0002D5B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D768C5623C265BD0002D5B0 /* MenuViewController.swift */; };
@@ -32,13 +42,35 @@
 		3D9A70E523BE784900787251 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A70E423BE784900787251 /* RoundedButton.swift */; };
 		3D9A70E723BE940E00787251 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A70E623BE940E00787251 /* HomeViewController.swift */; };
 		3D9A70E923BE947300787251 /* CellLovedDishesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A70E823BE947300787251 /* CellLovedDishesCollectionViewCell.swift */; };
+		3D9BE87623D98BDC00E155EA /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BE87523D98BDC00E155EA /* ChangeEmailViewController.swift */; };
+		3D9BE87823D98C3B00E155EA /* EditAddCartAfterSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BE87723D98C3B00E155EA /* EditAddCartAfterSettingsViewController.swift */; };
+		3D9BE87A23D9AAA700E155EA /* RequestSentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BE87923D9AAA700E155EA /* RequestSentViewController.swift */; };
+		3D9BE87C23D9CB3B00E155EA /* RequestSentAfterReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BE87B23D9CB3B00E155EA /* RequestSentAfterReservationViewController.swift */; };
+		3D9BE87E23D9DF7C00E155EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BE87D23D9DF7C00E155EA /* SettingsViewController.swift */; };
 		3DA3F3FA23CA34BE00FF7461 /* BookYourTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA3F3F923CA34BE00FF7461 /* BookYourTableViewController.swift */; };
 		3DA903BD23C9D6A800CC481C /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA903BC23C9D6A800CC481C /* MenuTableViewCell.swift */; };
+		3DB148B123CEFF03004C3504 /* RoundedImagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB148B023CEFF03004C3504 /* RoundedImagView.swift */; };
+		3DB148B323CEFFED004C3504 /* MyOrderAfterActivePastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB148B223CEFFED004C3504 /* MyOrderAfterActivePastViewController.swift */; };
+		3DB148B523CF0DDB004C3504 /* CellMyOrderAfterActivePastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB148B423CF0DDB004C3504 /* CellMyOrderAfterActivePastTableViewCell.swift */; };
+		3DB148B723CF293A004C3504 /* CellMyOrderLastAfterActivePastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB148B623CF293A004C3504 /* CellMyOrderLastAfterActivePastTableViewCell.swift */; };
+		3DB148BE23D08408004C3504 /* CellDishesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB148BD23D08408004C3504 /* CellDishesCollectionViewCell.swift */; };
+		3DB8D07C23CD2E07004566DD /* MyGiftTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8D07B23CD2E07004566DD /* MyGiftTableViewCell.swift */; };
+		3DB8D07E23CD3E05004566DD /* MyGiftDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8D07D23CD3E05004566DD /* MyGiftDetailViewController.swift */; };
+		3DB8D08023CD4744004566DD /* OfferAndPromotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8D07F23CD4744004566DD /* OfferAndPromotionTableViewCell.swift */; };
+		3DB8D08223CD499E004566DD /* OfferAndPromotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8D08123CD499E004566DD /* OfferAndPromotionViewController.swift */; };
+		3DF3696F23D88DA8006FE63E /* BookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3696E23D88DA8006FE63E /* BookingTableViewCell.swift */; };
+		3DF3697123D88F40006FE63E /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3697023D88F40006FE63E /* BookingViewController.swift */; };
+		3DF3697323D89601006FE63E /* MyOrderAfterRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3697223D89601006FE63E /* MyOrderAfterRewardsViewController.swift */; };
+		3DF3697523D897C6006FE63E /* PaymentAfterRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF3697423D897C6006FE63E /* PaymentAfterRewardsViewController.swift */; };
 		C9F4E7D7C61BCF629EB3202F /* Pods_MerchantNation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BF223059CC2BE159B1DE50C /* Pods-MerchantNation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantNation.debug.xcconfig"; path = "Target Support Files/Pods-MerchantNation/Pods-MerchantNation.debug.xcconfig"; sourceTree = "<group>"; };
+		3D03BD2223CDD4F000E1E4EB /* OfferAndPromotionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferAndPromotionDetailsViewController.swift; sourceTree = "<group>"; };
+		3D03BD2423CDEFA800E1E4EB /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		3D03BD2623CDF02C00E1E4EB /* CellRewardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellRewardsTableViewCell.swift; sourceTree = "<group>"; };
+		3D03BD2823CDF32E00E1E4EB /* RewardsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDetailsViewController.swift; sourceTree = "<group>"; };
 		3D07E06523BCCD2100FA6D91 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		3D07E06723BCDA3600FA6D91 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3D305D4923BB727900962260 /* MerchantNation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MerchantNation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +88,14 @@
 		3D382B0423CCCE4100118536 /* RedeemGiftCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedeemGiftCardViewController.swift; sourceTree = "<group>"; };
 		3D482E3123BD587900B4EAF7 /* CreatUserAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatUserAccountViewController.swift; sourceTree = "<group>"; };
 		3D482E3323BD600D00B4EAF7 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		3D51326323D862D300E87735 /* CommonFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		3D56DF2023D8B20700E03D35 /* AddToCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartViewController.swift; sourceTree = "<group>"; };
+		3D56DF2223D8B36100E03D35 /* TermConditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermConditionViewController.swift; sourceTree = "<group>"; };
+		3D56DF2423D8B37300E03D35 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		3D571AC723D3610200AB8734 /* MerchantNation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MerchantNation-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D571AC823D3610300AB8734 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3D571AC923D3610400AB8734 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3D571ACB23D3676900AB8734 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
 		3D59C52323CBB83E003ED4C6 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 		3D59C52523CBB874003ED4C6 /* ReservationAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationAddressTableViewCell.swift; sourceTree = "<group>"; };
 		3D768C5623C265BD0002D5B0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -66,8 +106,26 @@
 		3D9A70E423BE784900787251 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		3D9A70E623BE940E00787251 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D9A70E823BE947300787251 /* CellLovedDishesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellLovedDishesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D9BE87523D98BDC00E155EA /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		3D9BE87723D98C3B00E155EA /* EditAddCartAfterSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAddCartAfterSettingsViewController.swift; sourceTree = "<group>"; };
+		3D9BE87923D9AAA700E155EA /* RequestSentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentViewController.swift; sourceTree = "<group>"; };
+		3D9BE87B23D9CB3B00E155EA /* RequestSentAfterReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentAfterReservationViewController.swift; sourceTree = "<group>"; };
+		3D9BE87D23D9DF7C00E155EA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3DA3F3F923CA34BE00FF7461 /* BookYourTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookYourTableViewController.swift; sourceTree = "<group>"; };
 		3DA903BC23C9D6A800CC481C /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		3DB148B023CEFF03004C3504 /* RoundedImagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImagView.swift; sourceTree = "<group>"; };
+		3DB148B223CEFFED004C3504 /* MyOrderAfterActivePastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderAfterActivePastViewController.swift; sourceTree = "<group>"; };
+		3DB148B423CF0DDB004C3504 /* CellMyOrderAfterActivePastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMyOrderAfterActivePastTableViewCell.swift; sourceTree = "<group>"; };
+		3DB148B623CF293A004C3504 /* CellMyOrderLastAfterActivePastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMyOrderLastAfterActivePastTableViewCell.swift; sourceTree = "<group>"; };
+		3DB148BD23D08408004C3504 /* CellDishesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDishesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DB8D07B23CD2E07004566DD /* MyGiftTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGiftTableViewCell.swift; sourceTree = "<group>"; };
+		3DB8D07D23CD3E05004566DD /* MyGiftDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGiftDetailViewController.swift; sourceTree = "<group>"; };
+		3DB8D07F23CD4744004566DD /* OfferAndPromotionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferAndPromotionTableViewCell.swift; sourceTree = "<group>"; };
+		3DB8D08123CD499E004566DD /* OfferAndPromotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferAndPromotionViewController.swift; sourceTree = "<group>"; };
+		3DF3696E23D88DA8006FE63E /* BookingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTableViewCell.swift; sourceTree = "<group>"; };
+		3DF3697023D88F40006FE63E /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		3DF3697223D89601006FE63E /* MyOrderAfterRewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderAfterRewardsViewController.swift; sourceTree = "<group>"; };
+		3DF3697423D897C6006FE63E /* PaymentAfterRewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAfterRewardsViewController.swift; sourceTree = "<group>"; };
 		8367F24910198987E7C7B70A /* Pods-MerchantNation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MerchantNation.release.xcconfig"; path = "Target Support Files/Pods-MerchantNation/Pods-MerchantNation.release.xcconfig"; sourceTree = "<group>"; };
 		A073049D38A450E44ACF0961 /* Pods_MerchantNation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MerchantNation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -114,8 +172,8 @@
 		3D305D4B23BB727900962260 /* MerchantNation */ = {
 			isa = PBXGroup;
 			children = (
-				3D305D6523BB733C00962260 /* Networking */,
 				3D305D6423BB733000962260 /* CustomUI */,
+				3D305D6523BB733C00962260 /* Networking */,
 				3D305D6323BB730700962260 /* Model */,
 				3D305D4C23BB727900962260 /* AppDelegate.swift */,
 				3D305D4E23BB727900962260 /* SceneDelegate.swift */,
@@ -152,6 +210,24 @@
 				3D59C52323CBB83E003ED4C6 /* ReservationViewController.swift */,
 				3D382AFE23CC9CE200118536 /* OrderDetailsViewController.swift */,
 				3D382B0423CCCE4100118536 /* RedeemGiftCardViewController.swift */,
+				3DB8D07D23CD3E05004566DD /* MyGiftDetailViewController.swift */,
+				3DB8D08123CD499E004566DD /* OfferAndPromotionViewController.swift */,
+				3D03BD2223CDD4F000E1E4EB /* OfferAndPromotionDetailsViewController.swift */,
+				3D03BD2423CDEFA800E1E4EB /* RewardsViewController.swift */,
+				3D03BD2823CDF32E00E1E4EB /* RewardsDetailsViewController.swift */,
+				3DB148B223CEFFED004C3504 /* MyOrderAfterActivePastViewController.swift */,
+				3D571ACB23D3676900AB8734 /* SideBarTableViewController.swift */,
+				3DF3697023D88F40006FE63E /* BookingViewController.swift */,
+				3DF3697223D89601006FE63E /* MyOrderAfterRewardsViewController.swift */,
+				3DF3697423D897C6006FE63E /* PaymentAfterRewardsViewController.swift */,
+				3D56DF2023D8B20700E03D35 /* AddToCartViewController.swift */,
+				3D56DF2223D8B36100E03D35 /* TermConditionViewController.swift */,
+				3D56DF2423D8B37300E03D35 /* PrivacyPolicyViewController.swift */,
+				3D9BE87523D98BDC00E155EA /* ChangeEmailViewController.swift */,
+				3D9BE87723D98C3B00E155EA /* EditAddCartAfterSettingsViewController.swift */,
+				3D9BE87923D9AAA700E155EA /* RequestSentViewController.swift */,
+				3D9BE87B23D9CB3B00E155EA /* RequestSentAfterReservationViewController.swift */,
+				3D9BE87D23D9DF7C00E155EA /* SettingsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +252,9 @@
 		3D305D6423BB733000962260 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
+				3D51326223D862A500E87735 /* CommonFunction */,
+				3D571AC623D360E100AB8734 /* SwReveal side Bar */,
+				3DB148AF23CEFEEE004C3504 /* Image */,
 				3DA903BB23C9D65B00CC481C /* CustomCell */,
 				3D9A70E323BE783600787251 /* Buttons */,
 				3D9A70E023BE26CE00787251 /* Views */,
@@ -188,6 +267,24 @@
 			children = (
 			);
 			name = Networking;
+			sourceTree = "<group>";
+		};
+		3D51326223D862A500E87735 /* CommonFunction */ = {
+			isa = PBXGroup;
+			children = (
+				3D51326323D862D300E87735 /* CommonFunction.swift */,
+			);
+			path = CommonFunction;
+			sourceTree = "<group>";
+		};
+		3D571AC623D360E100AB8734 /* SwReveal side Bar */ = {
+			isa = PBXGroup;
+			children = (
+				3D571AC923D3610400AB8734 /* SWRevealViewController.h */,
+				3D571AC823D3610300AB8734 /* SWRevealViewController.m */,
+				3D571AC723D3610200AB8734 /* MerchantNation-Bridging-Header.h */,
+			);
+			name = "SwReveal side Bar";
 			sourceTree = "<group>";
 		};
 		3D9A70E023BE26CE00787251 /* Views */ = {
@@ -214,8 +311,23 @@
 				3D59C52523CBB874003ED4C6 /* ReservationAddressTableViewCell.swift */,
 				3D382B0023CC9E5100118536 /* OrderDetailsTableViewCell.swift */,
 				3D382B0223CCCD9700118536 /* GiftTableViewCell.swift */,
+				3DB8D07B23CD2E07004566DD /* MyGiftTableViewCell.swift */,
+				3DB8D07F23CD4744004566DD /* OfferAndPromotionTableViewCell.swift */,
+				3D03BD2623CDF02C00E1E4EB /* CellRewardsTableViewCell.swift */,
+				3DB148B423CF0DDB004C3504 /* CellMyOrderAfterActivePastTableViewCell.swift */,
+				3DB148B623CF293A004C3504 /* CellMyOrderLastAfterActivePastTableViewCell.swift */,
+				3DB148BD23D08408004C3504 /* CellDishesCollectionViewCell.swift */,
+				3DF3696E23D88DA8006FE63E /* BookingTableViewCell.swift */,
 			);
 			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		3DB148AF23CEFEEE004C3504 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				3DB148B023CEFF03004C3504 /* RoundedImagView.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		E635AD9BBAFA6FF169C9D964 /* Frameworks */ = {
@@ -260,6 +372,7 @@
 				TargetAttributes = {
 					3D305D4823BB727900962260 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -341,29 +454,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB148B523CF0DDB004C3504 /* CellMyOrderAfterActivePastTableViewCell.swift in Sources */,
+				3D571ACA23D3610400AB8734 /* SWRevealViewController.m in Sources */,
+				3D03BD2723CDF02C00E1E4EB /* CellRewardsTableViewCell.swift in Sources */,
+				3D9BE87C23D9CB3B00E155EA /* RequestSentAfterReservationViewController.swift in Sources */,
+				3D56DF2123D8B20700E03D35 /* AddToCartViewController.swift in Sources */,
 				3D768C5923C270260002D5B0 /* FamilyDealsViewController.swift in Sources */,
+				3D56DF2523D8B37300E03D35 /* PrivacyPolicyViewController.swift in Sources */,
+				3D9BE87823D98C3B00E155EA /* EditAddCartAfterSettingsViewController.swift in Sources */,
+				3D03BD2923CDF32E00E1E4EB /* RewardsDetailsViewController.swift in Sources */,
 				3D9A70E223BE26F700787251 /* ShadowView.swift in Sources */,
 				3D9A70E523BE784900787251 /* RoundedButton.swift in Sources */,
 				3D305D6723BB78BF00962260 /* RoundedUIView.swift in Sources */,
+				3DB148B723CF293A004C3504 /* CellMyOrderLastAfterActivePastTableViewCell.swift in Sources */,
+				3DB148B123CEFF03004C3504 /* RoundedImagView.swift in Sources */,
+				3DB8D07E23CD3E05004566DD /* MyGiftDetailViewController.swift in Sources */,
 				3D07E06623BCCD2100FA6D91 /* WelcomeViewController.swift in Sources */,
 				3D59C52423CBB83E003ED4C6 /* ReservationViewController.swift in Sources */,
 				3DA903BD23C9D6A800CC481C /* MenuTableViewCell.swift in Sources */,
 				3D07E06823BCDA3600FA6D91 /* SignInViewController.swift in Sources */,
+				3DF3697323D89601006FE63E /* MyOrderAfterRewardsViewController.swift in Sources */,
 				3D382B0323CCCD9700118536 /* GiftTableViewCell.swift in Sources */,
 				3D482E3423BD600D00B4EAF7 /* AddressViewController.swift in Sources */,
+				3DB148B323CEFFED004C3504 /* MyOrderAfterActivePastViewController.swift in Sources */,
+				3D9BE87E23D9DF7C00E155EA /* SettingsViewController.swift in Sources */,
+				3DB8D08223CD499E004566DD /* OfferAndPromotionViewController.swift in Sources */,
+				3D571ACC23D3676900AB8734 /* SideBarTableViewController.swift in Sources */,
+				3D9BE87623D98BDC00E155EA /* ChangeEmailViewController.swift in Sources */,
 				3D305D5123BB727900962260 /* ViewController.swift in Sources */,
 				3D768C5723C265BD0002D5B0 /* MenuViewController.swift in Sources */,
 				3D382AFF23CC9CE200118536 /* OrderDetailsViewController.swift in Sources */,
+				3D9BE87A23D9AAA700E155EA /* RequestSentViewController.swift in Sources */,
+				3D03BD2523CDEFA800E1E4EB /* RewardsViewController.swift in Sources */,
 				3D9A70E923BE947300787251 /* CellLovedDishesCollectionViewCell.swift in Sources */,
+				3DB8D08023CD4744004566DD /* OfferAndPromotionTableViewCell.swift in Sources */,
+				3D56DF2323D8B36100E03D35 /* TermConditionViewController.swift in Sources */,
 				3D9A70E723BE940E00787251 /* HomeViewController.swift in Sources */,
 				3D82544B23C889BA002E8A0F /* TestChildPagerViewController.swift in Sources */,
+				3DF3696F23D88DA8006FE63E /* BookingTableViewCell.swift in Sources */,
 				3D382B0123CC9E5100118536 /* OrderDetailsTableViewCell.swift in Sources */,
 				3DA3F3FA23CA34BE00FF7461 /* BookYourTableViewController.swift in Sources */,
+				3D51326423D862D300E87735 /* CommonFunction.swift in Sources */,
 				3D382B0523CCCE4100118536 /* RedeemGiftCardViewController.swift in Sources */,
 				3D59C52623CBB874003ED4C6 /* ReservationAddressTableViewCell.swift in Sources */,
+				3DB148BE23D08408004C3504 /* CellDishesCollectionViewCell.swift in Sources */,
+				3DB8D07C23CD2E07004566DD /* MyGiftTableViewCell.swift in Sources */,
 				3D305D4D23BB727900962260 /* AppDelegate.swift in Sources */,
 				3D82544923C889A5002E8A0F /* testPagerViewController.swift in Sources */,
+				3D03BD2323CDD4F000E1E4EB /* OfferAndPromotionDetailsViewController.swift in Sources */,
 				3D305D4F23BB727900962260 /* SceneDelegate.swift in Sources */,
+				3DF3697523D897C6006FE63E /* PaymentAfterRewardsViewController.swift in Sources */,
+				3DF3697123D88F40006FE63E /* BookingViewController.swift in Sources */,
 				3D482E3223BD587900B4EAF7 /* CreatUserAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +650,7 @@
 			baseConfigurationReference = 2BF223059CC2BE159B1DE50C /* Pods-MerchantNation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56NZPYU7N6;
 				INFOPLIST_FILE = "$(SRCROOT)/MerchantNation/Sharing File/Info.plist";
@@ -518,6 +660,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.umerhamid.MerchantNation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MerchantNation/MerchantNation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -528,6 +672,7 @@
 			baseConfigurationReference = 8367F24910198987E7C7B70A /* Pods-MerchantNation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56NZPYU7N6;
 				INFOPLIST_FILE = "$(SRCROOT)/MerchantNation/Sharing File/Info.plist";
@@ -537,6 +682,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.umerhamid.MerchantNation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MerchantNation/MerchantNation-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -18,6 +18,7 @@ class FamilyDealsViewController
     @IBOutlet weak var testLabel: UILabel!
     var childNumber = ""
     
+    @IBOutlet weak var testtableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,4 +35,27 @@ class FamilyDealsViewController
 
  
 
+}
+
+extension FamilyDealsViewController : UITableViewDataSource, UITableViewDelegate
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = testtableView.dequeueReusableCell(withIdentifier: "MenuCell", for: indexPath) as!
+        MenuTableViewCell
+
+
+//          cell.NameLabel.text = "Name"
+//          cell.priceLabel.text = "price"
+
+        //   cell.textLabel?.text = self.items[indexPath.row]
+
+           return cell
+    }
+    
+    
 }

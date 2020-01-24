@@ -15,10 +15,24 @@ class AddressViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+   
     
     @IBAction func backButtonPressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    
+    
+    @IBAction func continuePressed(_ sender: Any) {
+        
+        
+        performSegue(withIdentifier: "goToMain", sender: self)
+    }
+    @IBAction func addLaterPressed(_ sender: Any) {
+        
+        
+        
+        performSegue(withIdentifier: "goToMain", sender: self)
     }
     
     /*

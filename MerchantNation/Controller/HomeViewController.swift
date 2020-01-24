@@ -5,29 +5,68 @@
 //  Created by umer hamid on 1/3/20.
 //  Copyright © 2020 umer hamid. All rights reserved.
 //
-
+import XLPagerTabStrip
 import UIKit
 
 class HomeViewController: UIViewController {
 
 
+    @IBOutlet weak var sideBarButton: UIButton!
     @IBOutlet weak var loveDishedCollectionView: UICollectionView!
+    
+    @IBOutlet weak var reserveYourTableImagView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        reserveYourTableImagView.isUserInteractionEnabled = true
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        reserveYourTableImagView.isUserInteractionEnabled = true
+        reserveYourTableImagView.addGestureRecognizer(tapGestureRecognizer)
+        slideMenu()
         // Do any additional setup after loading the view.
     }
     
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer)
+    {
+        let tappedImage = tapGestureRecognizer.view as! UIImageView
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        self.tabBarController?.selectedIndex = 2
+        
+        // Your action
     }
-    */
+    
+    private func slideMenu(){
+        if revealViewController() != nil{
+           // sideBarButton.target = revealViewController()
+          //  sideBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
+             sideBarButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+            revealViewController()?.rearViewRevealWidth = 280
+            
+            view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+            
+            
+           
+
+        }
+    }
+    @IBAction func unwindToOne(_sender : UIStoryboardSegue) {}
+    
+    
+    @IBAction func seeMenuPressed(_ sender: Any) {
+          self.tabBarController?.selectedIndex = 1
+    }
+    
+    
+    //
+//    override func viewWillAppear(_ animated: Bool) {
+//        self.hidesBottomBarWhenPushed = true
+//        
+//    }
+//    override func viewWillDisappear(_ animated: Bool) {
+//        self.hidesBottomBarWhenPushed = false
+//
+//    }
 
 }
 

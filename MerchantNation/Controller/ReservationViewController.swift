@@ -12,10 +12,13 @@ class ReservationViewController: UIViewController {
 
     
     @IBOutlet weak var addressTableView: UITableView!
+    
+    @IBOutlet weak var sideMenuButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        slideMenu()
         self.addressTableView.separatorStyle = .none
     //    cell.selectionStyle = .none
    
@@ -23,6 +26,20 @@ class ReservationViewController: UIViewController {
     }
     
 
+    private func slideMenu(){
+        if revealViewController() != nil{
+           // sideMenuButton.target = revealViewController()
+          //  sideBarButton.action = #selector(SWRevealViewController.revealToggle(_:))
+             sideMenuButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+            revealViewController()?.rearViewRevealWidth = 280
+            
+            view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+            
+            
+           
+
+        }
+    }
 
 
 }
